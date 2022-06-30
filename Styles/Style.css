@@ -1,0 +1,98 @@
+
+body {
+    background-color: #f2ebe3;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background: white;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20em auto;
+    height: 570px;
+    width: 830px;
+    border-width: 300px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    float: left; /* A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos  e elementos em linha irão se posicionar ao seu redor. */
+    width: 45%;
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: relative; 
+    text-align: left;
+    overflow: hidden;
+    padding: 40px;
+    height: 100%;
+    float: left;
+    width: 40%;
+}
+
+.tittle {
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    letter-spacing: 8px;
+    font-size: 8px;
+}
+
+.sub {
+    font-family:'Fraunces';
+    color: hsl(212, 21%, 14%);
+    font-size: 30px;
+    line-height: 1.0;       /* space between upline and downline */
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+}
+
+.first {
+    color: hsl(158, 36%, 37%);
+    font-size: 45px;
+    display: inline-block;
+    font-family: 'Fraunces';
+}
+
+.second {
+    text-decoration: line-through;  
+    color: hsl(228, 12%, 48%); 
+    font-size: 17px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    padding-left: 30px;  /* give space between characters */
+    vertical-align: super;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 102px 20px 94px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+ 
+.cart {
+    size: 200px;
+}
